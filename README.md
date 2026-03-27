@@ -1,4 +1,4 @@
-# Atividades-Banco-de-Dados
+# Banco de Dados - Relacional
 Essas são algumas atividades de Banco de Dados - Relacional feitas por mim no 2° semestre de DSM na Fatec Luigi Papaiz, Diadema.
 
 ## SGBD utilizado
