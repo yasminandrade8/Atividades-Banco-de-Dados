@@ -45,6 +45,14 @@ INSERT INTO Pedidos VALUES
     (3, 3, 15, 150.99),
     (4, 4, 25, 11.00),
     (5, 5, 5, 49.90);
+
+CREATE VIEW vw_pedidos_clientes AS
+SELECT c.nomeCliente, p.nomeProduto, pe.valorP
+FROM Cliente c 
+INNER JOIN Pedidos pe ON pe.idCliente = c.idCliente
+INNER JOIN Produtos p ON p.idProduto = pe.idProduto;
+
+SELECT * FROM vw_pedidos_clientes
     
 
 
