@@ -29,7 +29,7 @@ CREATE TABLE Pedidos (
 
 INSERT INTO Cliente VALUES
 	(1, "José", "São Bernardo do Campo"),
-    (2, "Fernada", "Mauá"),
+    (2, "Fernanda", "Mauá"),
     (3, "Daniel", "Diadema"),
     (4, "Marcela", "Osasco"),
     (5, "Pietro", "Socorro");
